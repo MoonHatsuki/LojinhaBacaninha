@@ -1,5 +1,5 @@
 import os
-
+import produto.py
 class Menu:
 
     def menu(self):
@@ -11,10 +11,10 @@ class Menu:
             # mostra todos os produtos DISPONIVEIS
         elif opcao == 2:
             print ("vamos cadastrar seus produtos")
-            # cadastrar()
+            cadastrar()
         elif opcao == 3:
             print ("Vamos descadastrar seus produtos")
-            # desativar()
+            desativar()
         elif opcao == 4:
             print ("saindo")
             os.system('clear') or None
